@@ -12,7 +12,8 @@ ENV OSRM_DATA_PATH /osrm-data
 ENV OSRM_DATA_LABEL data
 ENV OSRM_GRAPH_PROFILE_CAR car
 ENV OSRM_GRAPH_PROFILE_FOOT foot
-ENV OSRM_PBF_URL http://download.geofabrik.de/europe/germany/berlin-latest.osm.pbf
+# ENV OSRM_PBF_URL http://download.geofabrik.de/europe/germany/berlin-latest.osm.pbf
+ENV OSRM_PBF_URL http://download.geofabrik.de/europe/spain-latest.osm.pbf
 ENV OSRM_CREATE_CAR_GRAPH no
 ENV OSRM_CREATE_FOOT_GRAPH no
 ENV OSRM_DOWNLOAD no
